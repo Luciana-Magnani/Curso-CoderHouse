@@ -24,6 +24,10 @@ nav ul li{
     background-color: rgba(0, 111, 0, 0.566);
 }
 
+.carousel-item{
+    height: 80vh;
+}
+
 /*.padreNavHeader{
     background-color: rgba(53, 134, 53, 0.865);
     display: block;
