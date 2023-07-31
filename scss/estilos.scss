@@ -181,7 +181,7 @@
   width: 600px;
   height: 550px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .hijoGaleriaActualidades h3 {
@@ -378,7 +378,6 @@ ul li {
   width: 65%;
   text-align: center;
   margin-top: 10px;
-  
 }
 
 .h1depaginas {
@@ -523,7 +522,7 @@ a:hover {
     width: 200px;
     height: 200px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     margin-top: 20px;
   }
   .hijoGaleriaActualidades {
@@ -544,15 +543,13 @@ a:hover {
     width: 300px;
     height: 300px;
   }
-
-.main iframe{
-  width: 100vh;
-}
-
-.boxAyuda2 {
-  width: 100%;  
-}
-.boxAyuda2 img{
-  margin-left: 10%; 
-}
-}/*# sourceMappingURL=estilos.css.map */
+  .main iframe {
+    width: 100vh;
+  }
+  .boxAyuda2 {
+    width: 100%;
+  }
+  .boxAyuda2 img {
+    margin-left: 10%;
+  }
+} /*# sourceMappingURL=estilos.css.map */
