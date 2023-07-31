@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-/*
-nav ul li{
-    list-style: none; /*saca la decoracion de las listas    
-    display: inline-block;/*hace que los items esten uno al lado del otro    
-    margin-left:10px; /*le da un espaciado izquierdo entre los elementos
-    margin-inline: 1px;    
-}*/
 .headerSticky {
   position: sticky;
   z-index: 10;
@@ -35,41 +28,6 @@ nav ul li{
   height: 80vh;
 }
 
-/*.padreNavHeader{
-    background-color: rgba(53, 134, 53, 0.865);
-    display: block;
-    height: 80px;
-    margin-top: 0px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;  
-    padding-left: 3rem;
-    padding-right: 1rem;
-}*/
-/*.contenedorLogo{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-/*.contenedorLogo a img {
-    width: 100%;
-}*/
-/*.navegacion{
-    list-style: none;
-    float: right;
-    display: flex;     
-}*/
-/*.anclas{    
-    font-size: 1rem;
-    margin: 0;
-    padding: 0; 
-    /*box-sizing: border-box;
-    text-decoration: none;
-    /*list-style: none;
-    color:white;
-    margin-right: 2rem; 
-}*/
 .sectionBoxsFixed {
   height: 50px;
   position: fixed;
@@ -223,7 +181,7 @@ nav ul li{
   width: 600px;
   height: 550px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .hijoGaleriaActualidades h3 {
@@ -401,7 +359,7 @@ ul li {
 
 .imagenServicio {
   display: inline;
-  width: 25%;
+  width: 75%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 15%;
@@ -409,8 +367,17 @@ ul li {
 
 .boxAyuda {
   display: inline-block;
+  text-align: center;
   background-color: rgba(128, 128, 128, 0.345);
   width: 100%;
+}
+
+.boxAyuda2 {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .h1depaginas {
@@ -555,7 +522,7 @@ a:hover {
     width: 200px;
     height: 200px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     margin-top: 20px;
   }
   .hijoGaleriaActualidades {
@@ -576,4 +543,13 @@ a:hover {
     width: 300px;
     height: 300px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+  .main iframe {
+    width: 100vh;
+  }
+  .boxAyuda2 {
+    width: 100%;
+  }
+  .boxAyuda2 img {
+    margin-left: 10%;
+  }
+} /*# sourceMappingURL=estilos.css.map */
