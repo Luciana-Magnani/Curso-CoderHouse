@@ -33,10 +33,23 @@
   
   .padreRedes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 10%;
+    margin: auto;    
   }
+
+    
   
-  .padreRedes p {
+  
+  .padreRedes .redes {
+    display: inline-block;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    animation: float infinite 5s ease-in-out ;
+  }
+  .ultimoTexto{
     font-size: 1rem;
     font-weight: 200;
     font-family: "Poppins", sans-serif;
@@ -44,15 +57,41 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  
-  .padreRedes .redes {
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 200; /*fuente regular*/
-    font-family: "Poppins", sans-serif;
-    color: rgb(198, 198, 198);
-    margin: auto;
+
+  .ri-instagram-line{
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* This is the first item so no animation delay needed.*/
+}
+
+.ri-facebook-circle-line{
+    animation-delay: 0.5s; /*Adds a animation delay of 0.5 seconds.*/
+}
+@keyframes float {
+  0%{
+      transform: translateY(0); /*The starting point of the animation is 0.*/
   }
+  50%{
+      transform: translateY(-25px); /*The middle point of the animation is -15xp. This will move the element up.*/
+  }
+  100%{
+      transform: translateY(0); /*The last point of the animation is going back to the starting state of 0.*/
+  }
+}
+
+  /*.facebook{
+    @include redes(facebook);
+  }
+
+  .instagram{
+    @include redes(instagram);
+  }
+
+  .telegram{
+    @include redes(telegram);
+  }*/
+
+  
 
 
 /*todos los celulares y algunas tablets*/
@@ -63,5 +102,10 @@
       flex-direction: column;
       align-items: center;
     }
+  }
+  .padreRedes .redes {
+    font-size: 15px;
+    margin: auto;
+    height: 50%;
   }
 }

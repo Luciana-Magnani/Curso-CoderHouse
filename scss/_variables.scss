@@ -12,7 +12,20 @@ $fuente-pequeña:0.80rem;
 $fuente-grande: 1.4rem;
 $fuente-maxima: 3rem;
 
+$red-facebook :  blue;
+$red-instagram : rgb(251, 58, 14);
+$red-telegram : rgb(15, 1, 64);
+$red-tiktok : red;
+
 $tipografia-general:  "Poppins", sans-serif;
 
 $contenedor-flex: flex;
 
+/*maps*/
+$redes:(
+    facebook : blue,
+    instagram : rgb(196, 14, 251),
+    telegram : rgb(15, 1, 64),
+    tiktok:red
+
+);
