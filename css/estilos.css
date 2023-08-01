@@ -6,103 +6,6 @@
   box-sizing: border-box;
 }
 
-.footer {
-  background-color: rgb(114, 113, 138);
-}
-.footer .PadrelistaFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-.footer .listaFooter {
-  width: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(114, 113, 138);
-}
-.footer .listaFooter h4 {
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin-top: 10px;
-}
-.footer .listaFooter p {
-  font-size: 1rem;
-  font-weight: 200;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin-top: 10px;
-}
-
-.padreRedes {
-  display: flex;
-  flex-direction: column;
-}
-
-.padreRedes p {
-  font-size: 1rem;
-  font-weight: 200;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.padreRedes .redes {
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin: auto;
-}
-
-/*todos los celulares y algunas tablets*/
-@media screen and (min-width: 0px) and (max-width: 768px) {
-  .footer .PadrelistaFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.headerSticky {
-  position: sticky;
-  z-index: 10;
-  top: 0px;
-}
-
-.colorNav {
-  background-color: rgba(0, 111, 0, 0.566);
-}
-
-.colorPlanes {
-  background-color: rgb(203, 203, 203);
-}
-
-.pTexto {
-  text-align: center;
-}
-
-.carousel-item {
-  height: 80vh;
-}
-
-.sectionBoxsFixed {
-  height: 50px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.fa-whatsapp {
-  color: green;
-  font-size: 3rem;
-}
-
 .contenedorTitulosPrincipales {
   text-align: center;
   width: 60%;
@@ -113,7 +16,7 @@
 
 .contenedorTitulosPrincipales h4 {
   font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
+  font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: green;
   margin-top: 20px;
@@ -121,7 +24,7 @@
 
 .tituloPrincipal {
   font-size: 2rem;
-  font-weight: 700; /*fuente negrita*/
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
   color: rgb(90, 90, 90);
@@ -129,7 +32,7 @@
 
 .texto120 {
   font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
+  font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: rgb(175, 175, 175);
   margin-top: 2rem;
@@ -147,7 +50,7 @@
 
 .hijoGaleria h3 {
   font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
+  font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: green;
   display: block;
@@ -156,7 +59,7 @@
 
 .hijoGaleria p {
   font-size: 1rem;
-  font-weight: 400; /*fuente regular*/
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: rgb(28, 28, 28);
   display: block;
@@ -185,7 +88,7 @@
 
 .imagenTexto h4 {
   font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
+  font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: green;
   text-align: left;
@@ -195,7 +98,7 @@
 
 .imagenTexto h3 {
   font-size: 2rem;
-  font-weight: 700; /*fuente negrita*/
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
   color: rgb(137, 137, 137);
@@ -206,7 +109,7 @@
 
 .imagenTexto p {
   font-size: 1rem;
-  font-weight: 100; /*fuente negrita*/
+  font-weight: 100;
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
   color: rgb(184, 184, 184);
@@ -224,12 +127,14 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-.actualidades .galeriaActualidades {
+
+.galeriaActualidades {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
-.actualidades .hijoGaleriaActualidades {
+
+.hijoGaleriaActualidades {
   width: 50vh;
   height: 60vh;
   display: flex;
@@ -237,13 +142,15 @@
   align-items: center;
   justify-content: space-around;
 }
-.actualidades .hijoGaleriaActualidades img {
+
+.hijoGaleriaActualidades img {
   width: 600px;
   height: 550px;
   -o-object-fit: cover;
   object-fit: cover;
 }
-.actualidades .hijoGaleriaActualidades h3 {
+
+.hijoGaleriaActualidades h3 {
   font-size: 1rem;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
@@ -251,7 +158,8 @@
   margin-top: 20px;
   text-align: center;
 }
-.actualidades .hijoGaleriaActualidades p {
+
+.hijoGaleriaActualidades p {
   font-size: 1rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -458,7 +366,6 @@ a:hover {
     height: initial;
   }
   .contenedorLogo {
-    /* width: 10%; */
     margin-top: 10px;
   }
   .contenedorLogo a img {
@@ -502,28 +409,27 @@ a:hover {
   .anclas {
     width: 100%;
     font-size: 1.25rem;
-    /*display: block;*/
   }
   ul li {
     margin-top: 1rem;
   }
-  .actualidades .galeriaActualidades {
+  .galeriaActualidades {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .actualidades .hijoGaleriaActualidades {
-    width: 80%;
-    height: initial;
-  }
-  .actualidades .hijoGaleriaActualidades img {
+  .hijoGaleriaActualidades img {
     width: 200px;
     height: 200px;
     -o-object-fit: cover;
     object-fit: cover;
     margin-top: 20px;
   }
-  .footer .PadrelistaFooter {
+  .hijoGaleriaActualidades {
+    width: 80%;
+    height: initial;
+  }
+  .PadrelistaFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -546,4 +452,511 @@ a:hover {
   .boxAyuda2 img {
     margin-left: 10%;
   }
-} /*# sourceMappingURL=estilos.css.map */
+}
+
+.headerSticky {
+  position: sticky;
+  z-index: 10;
+  top: 0px;
+}
+
+.colorNav {
+  background-color: rgba(0, 111, 0, 0.566);
+}
+
+.colorPlanes {
+  background-color: rgb(203, 203, 203);
+}
+
+.pTexto {
+  text-align: center;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.sectionBoxsFixed {
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.fa-whatsapp {
+  color: green;
+  font-size: 3rem;
+}
+
+/*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .padreNavHeader {
+    flex-direction: column;
+    height: initial;
+  }
+  .contenedorLogo {
+    /* width: 10%; */
+    margin-top: 10px;
+  }
+  .contenedorLogo a img {
+    width: 200px;
+  }
+  nav ul li {
+    display: block;
+  }
+}
+.contenedorTitulosPrincipales h4 {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  margin-top: 20px;
+}
+
+.tituloPrincipal {
+  font-size: 2rem;
+  font-weight: 700; /*fuente negrita*/
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  color: rgb(90, 90, 90);
+}
+
+.texto120 {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(175, 175, 175);
+  margin-top: 2rem;
+}
+
+.galeria {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5rem;
+  margin-bottom: 50px;
+}
+
+.hijoGaleria h3 {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  display: block;
+  margin-top: 20px;
+}
+
+.hijoGaleria p {
+  font-size: 1rem;
+  font-weight: 400; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(28, 28, 28);
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.galeria .hijoGaleria {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenTexto {
+  background: url(../assets/img/Cede\ Centro-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imagenTexto h4 {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.imagenTexto h3 {
+  font-size: 2rem;
+  font-weight: 700; /*fuente negrita*/
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  color: rgb(137, 137, 137);
+  text-align: left;
+  width: 70vh;
+  margin-left: 20px;
+}
+
+.imagenTexto p {
+  font-size: 1rem;
+  font-weight: 100; /*fuente negrita*/
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  color: rgb(184, 184, 184);
+  text-align: left;
+  width: 70vh;
+  margin-left: 20px;
+}
+
+.actualidades h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(81, 81, 81);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.actualidades .galeriaActualidades {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.actualidades .hijoGaleriaActualidades {
+  width: 50vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.actualidades .hijoGaleriaActualidades img {
+  width: 600px;
+  height: 550px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.actualidades .hijoGaleriaActualidades h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: green;
+  margin-top: 20px;
+  text-align: center;
+}
+.actualidades .hijoGaleriaActualidades p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin-top: 30px;
+  text-align: center;
+}
+.actualidades .tamanioFuente {
+  font-size: 1rem;
+  font-weight: 500; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  margin-left: 50vh;
+}
+.actualidades .tituloAyudaEco {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  display: block;
+  margin-top: 20px;
+}
+.actualidades .h4AyudaEco {
+  font-size: 1.5rem;
+  font-weight: 400; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.actualidades .parrafoAyudaEco {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  margin-top: 15px;
+}
+.actualidades ul li {
+  list-style: none; /*saca la decoracion de las listas*/
+  display: inline-block; /*hace que los items esten uno al lado del otro*/
+  margin-top: 30px;
+  /*margin-left: 10%;*/
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.actualidades .div50 {
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  text-align: left;
+}
+.actualidades .añosimagen {
+  width: 650px;
+  height: 650px;
+  display: inline-block;
+}
+.actualidades .obraimagen {
+  width: 650px;
+  height: 650px;
+  display: inline-block;
+}
+.actualidades .h3novedades {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.actualidades .tituloactualidad {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  text-align: center;
+  margin-top: 40px;
+}
+.actualidades .imagenesServicios {
+  display: inline-block;
+  width: 25%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+.actualidades .imagenesServicios {
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+.actualidades .imagenServicio {
+  display: inline;
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+.actualidades .boxAyuda {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.345);
+  width: 100%;
+}
+.actualidades .boxAyuda2 {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  text-align: center;
+  margin-top: 10px;
+}
+.actualidades .h1depaginas {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(6, 77, 10);
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+.actualidades .imagenchancho {
+  width: 400px;
+  height: 500px;
+}
+.actualidades .parrafoCuentaAhorro {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  margin-top: 15px;
+}
+.actualidades .textcultura {
+  font-size: 1.5rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 78, 78);
+  margin-top: 15px;
+}
+.actualidades .tituloPlanes {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: green;
+  text-align: center;
+  margin-top: 40px;
+}
+.actualidades .liPlanes {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(138, 138, 138);
+}
+.actualidades .parrafoPlanes {
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(57, 57, 57);
+  text-align: center;
+}
+.actualidades .boxPlanes {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.251);
+  width: 100%;
+}
+.actualidades .boxPlanes2 {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.251);
+  width: 100%;
+}
+.actualidades a:hover {
+  font-weight: bold;
+  color: rgb(7, 0, 224);
+}
+
+/*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .actualidades .galeriaActualidades {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .actualidades .hijoGaleriaActualidades {
+    width: 80%;
+    height: initial;
+  }
+  .actualidades .hijoGaleriaActualidades img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .galeria img {
+    width: 90px;
+    height: 90px;
+  }
+  .imagenTexto {
+    background-image: none;
+  }
+  .imagenTexto h4 {
+    margin-left: 30px;
+    width: 100%;
+  }
+  .imagenTexto h3 {
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .imagenTexto h4 {
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .imagenTexto p {
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .anclas {
+    width: 100%;
+    font-size: 1.25rem;
+    /*display: block;*/
+  }
+  ul li {
+    margin-top: 1rem;
+  }
+  .padrePlan {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .padrePlan img {
+    width: 300px;
+    height: 300px;
+  }
+  .main iframe {
+    width: 100vh;
+  }
+  .boxAyuda2 {
+    width: 100%;
+  }
+  .boxAyuda2 img {
+    margin-left: 10%;
+  }
+} 
+.footer {
+  background-color: rgb(114, 113, 138);
+}
+.footer .PadrelistaFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .listaFooter {
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(114, 113, 138);
+}
+.footer .listaFooter h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin-top: 10px;
+}
+.footer .listaFooter p {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin-top: 10px;
+}
+
+.padreRedes {
+  display: flex;
+  flex-direction: column;
+}
+
+.padreRedes p {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.padreRedes .redes {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin: auto;
+}
+
+/*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer .PadrelistaFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}/*# sourceMappingURL=estilos.css.map */

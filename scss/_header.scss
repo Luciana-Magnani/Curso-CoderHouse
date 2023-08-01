@@ -1,0 +1,52 @@
+.headerSticky {
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+  }
+  
+  .colorNav {
+    background-color: $color-fondeverde
+  }
+  
+  .colorPlanes {
+    background-color: $color-fondegris;
+  }
+  
+  .pTexto {
+    text-align: center;
+  }
+  
+  .carousel-item {
+    height: 80vh;
+  }
+  
+  .sectionBoxsFixed {
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .fa-whatsapp {
+    color: $color-primario;
+    font-size: 3rem;
+  }
+
+  /*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .padreNavHeader {
+    flex-direction: column;
+    height: initial;
+  }
+  .contenedorLogo {
+    /* width: 10%; */
+    margin-top: 10px;
+  }
+  .contenedorLogo a img {
+    width: 200px;
+  }
+  nav ul li {
+    display: block;
+  }
+
+}
