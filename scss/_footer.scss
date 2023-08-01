@@ -1,0 +1,64 @@
+.footer {
+    background-color: rgb(114, 113, 138);
+    .PadrelistaFooter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .listaFooter {
+      width: 40vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgb(114, 113, 138);
+      h4 {
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: rgb(198, 198, 198);
+        margin-top: 10px;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 200;
+        font-family: "Poppins", sans-serif;
+        color: rgb(198, 198, 198);
+        margin-top: 10px;
+      }
+    }
+  }
+  
+  .padreRedes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .padreRedes p {
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    color: rgb(198, 198, 198);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .padreRedes .redes {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 200; /*fuente regular*/
+    font-family: "Poppins", sans-serif;
+    color: rgb(198, 198, 198);
+    margin: auto;
+  }
+/*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer{
+    .PadrelistaFooter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -6,6 +6,69 @@
   box-sizing: border-box;
 }
 
+.footer {
+  background-color: rgb(114, 113, 138);
+}
+.footer .PadrelistaFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .listaFooter {
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(114, 113, 138);
+}
+.footer .listaFooter h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin-top: 10px;
+}
+.footer .listaFooter p {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin-top: 10px;
+}
+
+.padreRedes {
+  display: flex;
+  flex-direction: column;
+}
+
+.padreRedes p {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.padreRedes .redes {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 200; /*fuente regular*/
+  font-family: "Poppins", sans-serif;
+  color: rgb(198, 198, 198);
+  margin: auto;
+}
+
+/*todos los celulares y algunas tablets*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer .PadrelistaFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .headerSticky {
   position: sticky;
   z-index: 10;
@@ -161,14 +224,12 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-
-.galeriaActualidades {
+.actualidades .galeriaActualidades {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
-
-.hijoGaleriaActualidades {
+.actualidades .hijoGaleriaActualidades {
   width: 50vh;
   height: 60vh;
   display: flex;
@@ -176,15 +237,13 @@
   align-items: center;
   justify-content: space-around;
 }
-
-.hijoGaleriaActualidades img {
+.actualidades .hijoGaleriaActualidades img {
   width: 600px;
   height: 550px;
   -o-object-fit: cover;
   object-fit: cover;
 }
-
-.hijoGaleriaActualidades h3 {
+.actualidades .hijoGaleriaActualidades h3 {
   font-size: 1rem;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
@@ -192,73 +251,13 @@
   margin-top: 20px;
   text-align: center;
 }
-
-.hijoGaleriaActualidades p {
+.actualidades .hijoGaleriaActualidades p {
   font-size: 1rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: rgb(198, 198, 198);
   margin-top: 30px;
   text-align: center;
-}
-
-.footer {
-  background-color: rgb(114, 113, 138);
-}
-
-.PadrelistaFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.listaFooter {
-  width: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(114, 113, 138);
-}
-
-.listaFooter h4 {
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin-top: 10px;
-}
-
-.listaFooter p {
-  font-size: 1rem;
-  font-weight: 200;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin-top: 10px;
-}
-
-.padreRedes {
-  display: flex;
-  flex-direction: column;
-}
-
-.padreRedes p {
-  font-size: 1rem;
-  font-weight: 200;
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.padreRedes .redes {
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 200; /*fuente regular*/
-  font-family: "Poppins", sans-serif;
-  color: rgb(198, 198, 198);
-  margin: auto;
 }
 
 .tamanioFuente {
@@ -474,11 +473,6 @@ a:hover {
   }
   .imagenTexto {
     background-image: none;
-    /*text-align: center;
-    flex-direction: column;        
-    justify-content: center;
-    align-items: center;
-    overflow: auto;*/
   }
   .imagenTexto h4 {
     margin-left: 30px;
@@ -513,23 +507,23 @@ a:hover {
   ul li {
     margin-top: 1rem;
   }
-  .galeriaActualidades {
+  .actualidades .galeriaActualidades {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .hijoGaleriaActualidades img {
+  .actualidades .hijoGaleriaActualidades {
+    width: 80%;
+    height: initial;
+  }
+  .actualidades .hijoGaleriaActualidades img {
     width: 200px;
     height: 200px;
     -o-object-fit: cover;
     object-fit: cover;
     margin-top: 20px;
   }
-  .hijoGaleriaActualidades {
-    width: 80%;
-    height: initial;
-  }
-  .PadrelistaFooter {
+  .footer .PadrelistaFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
