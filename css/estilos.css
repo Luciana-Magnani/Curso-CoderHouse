@@ -420,15 +420,15 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
-  .padrePlan {
+  .header .padrePlan {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .padrePlan img {
+  /*.padrePlan img {
     width: 300px;
     height: 300px;
-  }
+  }*/
   .main iframe {
     width: 100vh;
   }
@@ -864,15 +864,16 @@ a:hover {
   ul li {
     margin-top: 1rem;
   }
-  .padrePlan {
+  .header .padrePlan {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
   }
-  .padrePlan img {
+  /*.padrePlan img {
     width: 300px;
     height: 300px;
-  }
+  }*/
   .main iframe {
     width: 100vh;
   }
@@ -882,7 +883,8 @@ a:hover {
   .boxAyuda2 img {
     margin-left: 10%;
   }
-} 
+}
+
 .footer {
   background-color: rgb(114, 113, 138);
 }
