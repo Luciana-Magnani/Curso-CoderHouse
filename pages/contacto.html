@@ -16,22 +16,7 @@
 
 
 
-        <header class="headerSticky">
-            
-                <!-- <div class="padreNavHeader row">
-                    <div class="contenedorLogo col-sm-12 col-md-1">
-                        <a href="#"><img src="./assets/img/logo-sociedad-italiana-1.png" alt="logo de la empresa, es una S"></a> 
-                    </div>             
-                    <nav class="navegacion col-sm-12 col-md-11">
-                        <ul class="float-end">
-                            <li><a class="anclas" href="#">Inicio</a></li>
-                            <li><a class="anclas" href="./pages/servicios.html">Servicios</a></li>
-                            <li><a class="anclas" href="./pages/asociate.html">Asociate</a></li>
-                            <li><a class="anclas" href="./pages/sobrenosotros.html">Sobre Nosotros</a></li>
-                            <li><a class="anclas" href="./pages/contacto.html">Contacto</a></li>
-                        </ul>
-                    </nav>
-                </div>   -->                 
+        <header class="headerSticky">               
                 <nav class="navbar navbar-expand-lg navbar-light colorNav">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="../index.html">
@@ -75,9 +60,51 @@
         </header>
 
         
-        <main class="container-fluid">
+        <main class="container">
             <h1 class="h1depaginas">Contacto</h1>
-            <form action="./404.html">
+
+
+            <form action="../pages/404.html" class="row g-3" >
+                
+                <div class="col-6">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="col-6">
+                    <label for="inputNombre" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="col-6">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="ejemplo@gmail.com" required>
+                </div>
+                <div class="col-6">
+                    <label for="inputTelefono" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="inputTelefono">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                    <label for="inputNombre" class="form-label">Dejanos Tu Comentario</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="col-12">
+                    <input type="reset" value="Limpiar Formulario" class="col-3">
+                </div>
+                <div class="col-12">
+                    <input type="submit" class="col-3">
+                </div>               
+                
+            </form>
+
+
+
+
+
+
+            <!--<form action="./404.html">
                 <div>
                     <input type="text" placeholder="Nombre" required>   
                 </div>
@@ -99,7 +126,7 @@
                 
                 <input type="reset" value="Limpiar Formulario">
                 <input type="submit">
-            </form>
+            </form>-->
             <div>
                 <h2>Donde podes encontrarnos</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13406.020237858324!2d-61.150401!3d-32.858354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b625304089d171%3A0xbbfcac0908fbe93a!2sSOCIEDAD%20ITALIANA%20DE%20SOCORROS%20MUTUOS!5e0!3m2!1ses-419!2sar!4v1686515193905!5m2!1ses-419!2sar" class="ratio ratio-16x9" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -139,13 +166,15 @@
 
             <div class="padreRedes">                
                 <a target="_blank" href="https://www.instagram.com/sociedaditaliana.sm/?hl=es" class="redes">
-                    <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-instagram fa-2xl ri-instagram-line" style="color: #ffffff;"></i>
                 </a>
-                <a target="_blank" href="https://www.facebook.com/search/top?q=sociedad%20italiana%20carcara%C3%B1a" class="redes facebook">
-                    <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
-                </a>           
-                <p>Sociedad Italiana © 2023. Todos los derechos reservados.</p>     
-            </div>                       
+                <a target="_blank" href="https://www.facebook.com/search/top?q=sociedad%20italiana%20carcara%C3%B1a" class="redes ri-facebook-circle-line">
+                    <i class="fa-brands fa-facebook fa-2xl " style="color: #ffffff;"></i>
+                </a>    
+            </div>   
+            <div>
+                <p class="ultimoTexto">Sociedad Italiana © 2023. Todos los derechos reservados.</p>
+            </div>                             
                        
 
         </footer>
