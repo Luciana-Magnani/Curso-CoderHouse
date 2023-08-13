@@ -434,6 +434,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .boxAyuda2 img {
+    width: 350px;
+    height: 400px;
+  }
+  .boxAyuda img {
+    width: 350px;
+    height: 400px;
+  }
 }
 
 .headerSticky {
@@ -865,6 +873,10 @@ a:hover {
   }
   .boxAyuda2 {
     width: 100%;
+  }
+  .boxAyuda2 .img {
+    width: 300px;
+    height: 300px;
   }
 }
 
