@@ -260,7 +260,7 @@ ul li {
 .boxAyuda {
   display: inline-block;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgb(255, 255, 255);
   width: 100%;
 }
 
@@ -447,7 +447,7 @@ a:hover {
 }
 
 .colorPlanes {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(245, 245, 245);
 }
 
 .pTexto {
@@ -729,7 +729,7 @@ a:hover {
 .actualidades .boxAyuda {
   display: inline-block;
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.345);
+  background-color: rgb(244, 244, 244);
   width: 100%;
 }
 .actualidades .boxAyuda2 {
